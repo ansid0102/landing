@@ -1,0 +1,70 @@
+#top{
+    margin-top:50px;
+}
+#portfolio{
+    /* background-color: #28282B; */
+    color: #141823;
+}
+#portfolio h1{
+    padding-top: 3em;
+    font-family: sans-serif;
+    text-align: center;
+    color: #00008B;
+}
+#portfolio p{
+    /* padding: 1em; */
+    font-family: serif;
+    font-size: x-large;
+    text-align: center;
+}
+#social{
+    text-align: center;
+    animation: bounce 0.75s infinite;
+
+}
+.group{
+    padding: 10px 40px;
+    margin: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: medium;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+@keyframes bounce{
+    0%{
+        transform: scale(1,1) translate(0px,0px);
+    }
+    30%{
+        transform: scale(1,0,8) translate(0px,10px);
+    }
+    75%{
+        transform: scale(1,1,1) translate(0px,-25px);
+    }
+    100%{
+        transform: scale(1,1) translate(0px,0px);
+    }
+}
+.group:first-child{
+    background-color: black;
+    color: white;
+}
+.group:nth-child(2){
+    background-color: #00008B;
+    color: white;
+}
+.group:nth-child(3){
+    background-color: skyblue;
+    color: #141823;
+}
+#mywork{
+    padding-top: 3em;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#bottom{
+    background-color: #141823;
+    color: white;
+}
